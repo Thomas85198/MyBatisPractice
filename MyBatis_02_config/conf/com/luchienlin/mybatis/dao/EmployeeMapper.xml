@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luchienlin.mybatis.dao.EmployeeMapper">
+<!-- 
+namespace：名稱空間
+id：唯一標示
+resultType：返回值類型
+#{id}：從傳遞過來的參數中取出id值
+ -->
+	<select id="getEmpById" resultType="com.luchienlin.mybatis.bean.Employee"
+		databaseId="mysql">
+		select * from tb1_employee where id = #{id}
+	</select>
+
+</mapper>

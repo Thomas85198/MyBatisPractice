@@ -215,3 +215,38 @@
 2020-04-15 23:46:44 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
 2020-04-15 23:46:44 DEBUG PooledDataSource:381 - Returned connection 1876682596 to pool.
 2020-04-15 23:46:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 09:47:38 DEBUG PooledDataSource:424 - Created connection 1876682596.
+2020-04-16 09:47:38 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 09:47:38 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-16 09:47:38 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 09:47:38 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 09:47:38 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 09:47:38 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 09:47:38 DEBUG PooledDataSource:381 - Returned connection 1876682596 to pool.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 10:05:36 DEBUG PooledDataSource:424 - Created connection 1876682596.
+2020-04-16 10:05:36 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 10:05:36 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-16 10:05:36 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 10:05:36 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 10:05:36 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 10:05:36 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 10:05:36 DEBUG PooledDataSource:381 - Returned connection 1876682596 to pool.
+2020-04-16 10:05:36 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.

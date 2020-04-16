@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 
+		1. mybatis可以使用properties來引入外部properties配置文件的內容
+		resource：引入類路徑下的資源
+		url：引入網路路徑或者磁盤路徑下的資源
+	 -->
+	 <properties resource="dbconfig.properties"></properties>
+	 
+	 <!-- 
+	 	2. settings包含很多種要設置項
+	 	setting：用來設置每一個設置檔
+	 		name：設置項名
+	 		value：設置項取值
+	  -->
+	  <settings>
+	  <!-- 是否開啟駝峰命名 -->
+	  	<setting name="mapUnderscoreToCamelCase" value="true"/>
+	  </settings>
+	  
+	  <!-- 
+	  	3. typeAliases：別名處理器，可以為我們的java類型起別名
+	  								 別名不區分大小寫
+	  		type：指定要取別名的類型全類名；默認別名就是類名小寫：employee
+	  		alias：指定新的別名
+	   -->
+	<typeAliases>
+		<typeAlias type="com.luchienlin.mybatis.bean.Employee"
+			alias="emp" />
+
+		<!-- package：為某個包下的所有類批量取別名 name：指定包名(為當前包以及下面所有的後代包的每一個類都起一個默認別名(類名小寫) -->
+		<package name="com.luchienlin.mybatis.bean" />
+
+		<!-- 批量取別名的情況下，使用@Alias註解為某個類型指定新的別名 -->
+
+	</typeAliases>
+	
+	
+	  <!-- 
+	  	4. environments：環境們，mybatis可以配置多種環境，default指定使用某個環境，可以達到快速切換
+	  		environment：配置一個具體的環境訊息，必須有兩個標籤，id代表當前環境的唯一標示
+	  			transactionManager：事務管理器：
+	  				type：事務管理器的類型：JDBC(JdbcTransactionFactory)|MANAGED(ManagedTransactionFactory)
+	  					自訂義事務管理器：實現TransactionManager接口，type指定為全類名
+	  			dataSource：資料庫源
+	  					type：資料庫類型；UNPOOLED|POOLED|JNDI
+	  					自訂義數據源：實現DataSourceFactory接口，type是全類名
+	   -->
+	<environments default="development">
+		<environment id="test">
+			<transactionManager type="JDBC" ></transactionManager>
+			<dataSource type=""></dataSource>
+		</environment>
+		
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driver}" />
+				<property name="url" value="${jdbc.url}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<!-- 5. databaseIdProvider：支持多資料庫廠商的
+			type="DB_VENDOR"：VendorDatabaseIdProvider
+				作用就是得到資料庫廠商的標示(驅動getDatabaseProductName()可以得到廠商標示)，mybatis就能根據資料庫類型廠商標示來執行不同的sql
+				MySQL、Oracle、SQL Sever, xxx
+	 -->
+	<databaseIdProvider type="DB_VENDOR ">
+		<!-- 為不同的資料庫廠商取別名 -->
+		<property name="MySQL" value="mysql"/>
+		<property name="Oracle" value="oracle"/>
+		<property name="SQL Server" value="sqlserver"/>
+	</databaseIdProvider>
+ 
+
+	<!-- 將我們寫好的sql映射文件(EmployeeMapper.xml)一定要註冊到全局配置文件(mybatis-config.xml)中 -->
+	<!-- 6. mappers：將sql映射文件註冊到全局配置中 -->
+	<mappers>
+		<!-- 
+			mapper：註冊一個sql映射
+						resource：引用類路徑下sql映射文件
+								mybatis/mapper/EmployeeMapper.xml(包下)
+						url：引用網路路徑磁盤路徑下的sql映射文件
+								file:///var/mappers/AuthorMapper.xml
+						class：引用(註冊)接口
+									1.  有sql映射文件，映射文件名必須和接口同名。並且放在同一層目錄下
+									2.  沒有sql映射文件，所有sql都是利用註解在接口上
+									推薦：
+										  比較重要的，複雜的Dao接口我們來寫sql映射文件
+										  不重要，簡單的Dao街口為了開發快速使用註解
+		 -->
+		 <!--  
+		<mapper resource="mybatis/mapper/EmployeeMapper.xml" />
+		<mapper class="com.luchienlin.mybatis.dao.EmployeeMapperAnnotation"/>
+		-->
+		
+		<!-- 批量註冊 -->
+		 <package name="com.luchienlin.mybatis.dao"/>
+	</mappers>
+</configuration>

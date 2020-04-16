@@ -1,0 +1,980 @@
+2020-04-15 22:55:42 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 22:55:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 22:55:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 22:55:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 22:55:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 22:59:39 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 22:59:39 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 22:59:39 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 22:59:39 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 22:59:39 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:03:01 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:03:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:03:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:03:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:03:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:05:57 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:05:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:05:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:05:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:05:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:05:57 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:10:40 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:10:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:10:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:10:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:10:40 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:10:40 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:11:58 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:11:58 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:14:44 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:14:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:14:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:14:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:14:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:14:44 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:14:44 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:14:44 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:14:44 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:14:45 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:14:45 DEBUG selectEmp:143 - <==      Total: 0
+2020-04-15 23:14:45 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:14:45 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:14:45 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:15:09 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:15:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:09 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:09 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:15:09 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:15:09 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:09 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:15:09 DEBUG selectEmp:143 - ==> Parameters: 0(Integer)
+2020-04-15 23:15:09 DEBUG selectEmp:143 - <==      Total: 0
+2020-04-15 23:15:09 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:09 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:09 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:15:19 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:15:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:19 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:15:19 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:15:19 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:19 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:15:19 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:15:19 DEBUG selectEmp:143 - <==      Total: 0
+2020-04-15 23:15:19 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:19 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:19 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:15:57 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:15:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:57 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:15:57 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:15:58 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:15:58 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:58 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:15:58 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:15:58 DEBUG selectEmp:143 - <==      Total: 0
+2020-04-15 23:15:58 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:58 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:15:58 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:17:19 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:17:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:17:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:17:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:17:19 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:17:19 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:17:19 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:17:19 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:17:19 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:17:19 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:17:19 DEBUG selectEmp:143 - <==      Total: 1
+2020-04-15 23:17:19 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:17:19 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:17:19 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:19:38 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:19:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:38 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:19:39 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:19:39 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:19:39 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:19:39 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:19:39 DEBUG selectEmp:143 - <==      Total: 1
+2020-04-15 23:19:39 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:19:39 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:19:39 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:19:50 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:19:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:19:50 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:19:51 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:19:51 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:19:51 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:19:51 DEBUG selectEmp:143 - ==> Parameters: 0(Integer)
+2020-04-15 23:19:51 DEBUG selectEmp:143 - <==      Total: 0
+2020-04-15 23:19:51 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:19:51 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:19:51 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:20:28 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:20:28 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:20:28 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:20:28 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:20:28 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:20:28 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:20:28 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:20:28 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:20:28 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:20:28 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:20:28 DEBUG selectEmp:143 - <==      Total: 1
+2020-04-15 23:20:28 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:20:28 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:20:28 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:22:12 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:22:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:22:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:22:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:22:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:22:12 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:22:12 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:22:12 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:22:12 DEBUG selectEmp:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-15 23:22:12 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:22:12 DEBUG selectEmp:143 - <==      Total: 1
+2020-04-15 23:22:12 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:22:12 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:22:12 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:24:27 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:24:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:24:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:24:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:24:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:24:27 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:24:28 DEBUG PooledDataSource:424 - Created connection 599984672.
+2020-04-15 23:24:28 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:24:28 DEBUG selectEmp:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-15 23:24:28 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:24:28 DEBUG selectEmp:143 - <==      Total: 1
+2020-04-15 23:24:28 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:24:28 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@23c30a20]
+2020-04-15 23:24:28 DEBUG PooledDataSource:381 - Returned connection 599984672 to pool.
+2020-04-15 23:32:03 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:32:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:32:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:32:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:32:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:32:04 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:32:04 DEBUG PooledDataSource:424 - Created connection 137225802.
+2020-04-15 23:32:04 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@82de64a]
+2020-04-15 23:32:04 DEBUG selectEmp:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-15 23:32:04 DEBUG selectEmp:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:32:04 DEBUG selectEmp:143 - <==      Total: 1
+2020-04-15 23:32:04 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@82de64a]
+2020-04-15 23:32:04 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@82de64a]
+2020-04-15 23:32:04 DEBUG PooledDataSource:381 - Returned connection 137225802 to pool.
+2020-04-15 23:45:47 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:45:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:45:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:45:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:45:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:45:47 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:45:47 DEBUG PooledDataSource:424 - Created connection 1876682596.
+2020-04-15 23:45:47 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-15 23:45:47 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-15 23:45:47 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:45:47 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-15 23:45:47 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-15 23:45:47 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-15 23:45:47 DEBUG PooledDataSource:381 - Returned connection 1876682596 to pool.
+2020-04-15 23:45:47 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:46:43 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-15 23:46:43 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:46:43 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:46:43 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:46:43 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-15 23:46:43 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-15 23:46:44 DEBUG PooledDataSource:424 - Created connection 1876682596.
+2020-04-15 23:46:44 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-15 23:46:44 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-15 23:46:44 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-15 23:46:44 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-15 23:46:44 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-15 23:46:44 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-15 23:46:44 DEBUG PooledDataSource:381 - Returned connection 1876682596 to pool.
+2020-04-15 23:46:44 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 09:47:38 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 09:47:38 DEBUG PooledDataSource:424 - Created connection 1876682596.
+2020-04-16 09:47:38 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 09:47:38 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-16 09:47:38 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 09:47:38 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 09:47:38 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 09:47:38 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 09:47:38 DEBUG PooledDataSource:381 - Returned connection 1876682596 to pool.
+2020-04-16 09:47:38 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:00:23 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 10:05:35 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 10:05:36 DEBUG PooledDataSource:424 - Created connection 1876682596.
+2020-04-16 10:05:36 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 10:05:36 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-16 10:05:36 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 10:05:36 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 10:05:36 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 10:05:36 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6fdbe764]
+2020-04-16 10:05:36 DEBUG PooledDataSource:381 - Returned connection 1876682596 to pool.
+2020-04-16 10:05:36 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:45:16 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 12:45:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:45:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:45:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:45:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:45:16 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 12:45:17 DEBUG PooledDataSource:424 - Created connection 1371957475.
+2020-04-16 12:45:17 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@51c668e3]
+2020-04-16 12:45:17 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-16 12:45:17 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 12:45:17 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 12:45:17 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@51c668e3]
+2020-04-16 12:45:17 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@51c668e3]
+2020-04-16 12:45:17 DEBUG PooledDataSource:381 - Returned connection 1371957475 to pool.
+2020-04-16 12:45:17 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:47:35 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 12:47:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:47:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:47:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:47:35 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:47:35 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 12:47:36 DEBUG PooledDataSource:424 - Created connection 1450652220.
+2020-04-16 12:47:36 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:47:36 DEBUG getEmpById:143 - ==>  Preparing: select id,last_name AS lastName, email, gender from tb1_employee where id = ? 
+2020-04-16 12:47:36 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 12:47:36 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 12:47:36 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:47:36 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:47:36 DEBUG PooledDataSource:381 - Returned connection 1450652220 to pool.
+2020-04-16 12:47:36 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:00 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 12:48:00 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:00 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:00 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:00 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:00 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 12:48:01 DEBUG PooledDataSource:424 - Created connection 1450652220.
+2020-04-16 12:48:01 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:48:01 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 12:48:01 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 12:48:01 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 12:48:01 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:48:01 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:48:01 DEBUG PooledDataSource:381 - Returned connection 1450652220 to pool.
+2020-04-16 12:48:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:52 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 12:48:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:48:52 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:50:05 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 12:50:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:50:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:50:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:50:05 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 12:50:05 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 12:50:06 DEBUG PooledDataSource:424 - Created connection 1450652220.
+2020-04-16 12:50:06 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:50:06 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 12:50:06 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 12:50:06 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 12:50:06 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:50:06 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 12:50:06 DEBUG PooledDataSource:381 - Returned connection 1450652220 to pool.
+2020-04-16 12:50:06 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:34:27 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:34:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:34:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:34:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:34:27 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:34:27 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:34:28 DEBUG PooledDataSource:424 - Created connection 1450652220.
+2020-04-16 13:34:28 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 13:34:28 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:34:28 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:34:28 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:34:28 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 13:34:28 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5677323c]
+2020-04-16 13:34:28 DEBUG PooledDataSource:381 - Returned connection 1450652220 to pool.
+2020-04-16 13:34:28 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:50 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:41:50 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:41:50 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:41:50 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:41:50 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:41:50 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:41:50 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:41:50 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:41:51 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:41:51 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:41:51 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:41:51 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:41:51 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:41:51 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:51 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:41:51 DEBUG PooledDataSource:424 - Created connection 914507705.
+2020-04-16 13:41:51 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:41:51 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:41:51 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:41:51 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:41:51 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:41:51 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:41:51 DEBUG PooledDataSource:381 - Returned connection 914507705 to pool.
+2020-04-16 13:41:51 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:41:51 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:41:51 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:41:51 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:41:51 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:41:51 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:41:51 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:41:51 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:41:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:14 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:42:14 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:42:14 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:42:14 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:42:14 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:42:14 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:42:14 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:14 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:14 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:42:14 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:14 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:14 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:14 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:42:14 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:42:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:14 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:42:15 DEBUG PooledDataSource:424 - Created connection 914507705.
+2020-04-16 13:42:15 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:42:15 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:42:15 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:42:15 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:42:15 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:42:15 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:42:15 DEBUG PooledDataSource:381 - Returned connection 914507705 to pool.
+2020-04-16 13:42:15 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:15 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:15 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:42:15 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:15 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:15 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:15 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:42:15 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:42:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:15 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:50 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:42:50 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:42:50 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:42:50 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:42:50 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:42:50 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:42:50 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:50 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:50 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:42:50 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:50 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:50 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:50 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:42:50 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:42:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:50 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:50 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:42:50 DEBUG PooledDataSource:424 - Created connection 914507705.
+2020-04-16 13:42:50 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:42:50 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:42:50 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:42:50 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:42:50 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:42:50 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:42:50 DEBUG PooledDataSource:381 - Returned connection 914507705 to pool.
+2020-04-16 13:42:51 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:51 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:51 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:42:51 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:42:51 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:51 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:42:51 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:42:51 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:42:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:42:51 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:43:29 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:43:29 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:43:29 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:43:29 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:43:29 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:43:29 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:43:29 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:43:29 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:43:29 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:43:29 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:43:29 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:43:29 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:43:29 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:43:29 DEBUG PooledDataSource:424 - Created connection 914507705.
+2020-04-16 13:43:29 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:43:29 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:43:29 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:43:29 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:43:29 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:43:29 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@368247b9]
+2020-04-16 13:43:29 DEBUG PooledDataSource:381 - Returned connection 914507705 to pool.
+2020-04-16 13:43:29 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:43:29 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:43:29 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:43:29 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:43:29 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:43:29 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:43:29 DEBUG DefaultVFS:102 - Reader entry: ����   4 B  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:43:29 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:43:29 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:46:01 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:46:01 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:46:01 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:46:01 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:46:01 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:46:01 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:46:01 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:46:01 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:46:01 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:46:01 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:46:01 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:46:01 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:46:01 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:46:01 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:46:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:46:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:46:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:46:01 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:46:01 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:46:02 DEBUG PooledDataSource:424 - Created connection 1522095831.
+2020-04-16 13:46:02 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:46:02 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:46:02 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:46:02 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:46:02 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:46:02 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:46:02 DEBUG PooledDataSource:381 - Returned connection 1522095831 to pool.
+2020-04-16 13:48:42 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:48:42 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:48:42 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:48:42 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:48:42 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:48:42 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:48:42 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:48:42 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:48:42 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:48:42 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:48:42 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:48:42 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:48:42 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:48:42 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:48:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:48:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:48:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:48:42 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:48:42 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:48:42 DEBUG PooledDataSource:424 - Created connection 1522095831.
+2020-04-16 13:48:42 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:48:42 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:48:42 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:48:42 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:48:42 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:48:42 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:48:42 DEBUG PooledDataSource:381 - Returned connection 1522095831 to pool.
+2020-04-16 13:50:33 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:50:33 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:50:33 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:50:33 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:50:33 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:50:33 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:50:33 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:50:33 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:50:33 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:50:33 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:50:33 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:50:33 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:50:33 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:50:33 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 13:50:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:50:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:50:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:50:33 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 13:50:33 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 13:50:34 DEBUG PooledDataSource:424 - Created connection 1522095831.
+2020-04-16 13:50:34 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:50:34 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id = ? 
+2020-04-16 13:50:34 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 13:50:34 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 13:50:34 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:50:34 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5ab956d7]
+2020-04-16 13:50:34 DEBUG PooledDataSource:381 - Returned connection 1522095831 to pool.
+2020-04-16 13:50:45 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 13:50:45 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 13:50:45 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 13:50:45 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 13:50:45 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 13:50:45 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 13:50:45 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:50:45 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:50:45 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 13:50:45 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 13:50:45 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:50:45 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 13:50:45 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 13:50:45 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:00:53 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:00:53 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:00:53 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:00:53 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:00:53 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:00:53 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:00:53 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:00:53 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:00:53 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:00:53 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:00:53 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:00:53 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:00:53 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:00:53 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:00:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:00:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:00:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:00:53 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:00:53 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:00:53 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:00:54 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:00:54 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:00:54 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:00:54 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:00:54 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:00:54 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:00:54 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:00:54 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:00:54 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:01:16 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:01:16 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:01:16 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:01:16 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:01:16 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:01:16 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:01:16 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:01:16 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:01:16 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:01:16 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:01:16 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:01:16 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:01:16 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:01:16 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:01:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:01:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:01:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:01:16 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:01:16 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:01:16 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:01:16 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:01:16 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:01:16 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:01:16 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:01:16 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:01:16 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:01:16 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:01:16 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:01:16 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:06:14 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:06:14 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:06:14 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:06:14 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:06:14 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:06:14 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:06:14 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:06:14 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:06:14 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:06:14 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:06:14 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:06:14 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:06:14 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:06:14 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:06:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:06:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:06:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:06:14 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:06:14 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:06:14 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:06:14 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:06:14 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:06:14 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:06:14 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:06:14 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:06:14 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:06:14 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:06:14 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:06:14 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:08:07 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:08:07 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:08:07 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:08:07 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:08:07 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:08:07 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:08:07 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:08:07 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:08:07 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:08:07 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:08:07 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:08:07 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:08:07 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:08:07 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:08:07 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:08:07 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:08:07 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:08:07 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:08:08 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:08:08 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:08:08 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:08:08 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:08:08 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:08:08 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:08:08 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:08:08 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:08:08 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:08:08 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:08:08 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:11:58 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:11:58 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:11:58 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:11:58 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:11:58 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:11:58 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:11:58 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:11:58 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:11:58 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:11:58 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:11:58 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:11:58 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:11:58 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:11:58 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:11:58 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:11:58 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:11:58 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:20:12 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:20:12 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:20:12 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:20:12 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:20:12 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:20:12 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:20:12 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:20:12 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:20:12 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:20:12 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:20:12 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:20:12 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:20:12 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:20:12 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:20:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:20:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:20:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:20:12 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:20:13 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:20:13 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:20:13 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:20:13 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:20:13 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:20:13 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:20:13 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:20:13 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:21:04 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:21:04 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:21:04 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:21:04 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:21:04 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:21:04 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:21:04 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:21:04 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:21:04 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:21:04 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:21:04 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:21:04 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:21:04 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:21:04 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:21:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:21:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:21:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:21:04 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:21:05 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:21:05 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:21:05 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:21:05 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:21:05 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:21:05 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:21:05 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:21:05 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:21:05 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:21:05 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:21:05 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:26:55 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:26:55 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:26:55 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:26:55 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:26:55 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:26:55 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:424 - Created connection 1217875525.
+2020-04-16 14:26:55 DEBUG PooledDataSource:381 - Returned connection 1217875525 to pool.
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 	  )com/luchienlin/mybatis/dao/EmployeeMapper  java/lang/Object 
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:26:55 DEBUG PooledDataSource:416 - Checked out connection 1217875525 from pool.
+2020-04-16 14:26:55 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@48974e45]
+2020-04-16 14:26:55 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:26:55 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:26:55 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:26:55 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@48974e45]
+2020-04-16 14:26:55 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@48974e45]
+2020-04-16 14:26:55 DEBUG PooledDataSource:381 - Returned connection 1217875525 to pool.
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:424 - Created connection 1816725203.
+2020-04-16 14:26:55 DEBUG PooledDataSource:381 - Returned connection 1816725203 to pool.
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 	  )com/luchienlin/mybatis/dao/EmployeeMapper  java/lang/Object 
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:26:55 DEBUG PooledDataSource:416 - Checked out connection 1816725203 from pool.
+2020-04-16 14:26:55 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6c4906d3]
+2020-04-16 14:26:55 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:26:55 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:26:55 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:26:55 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6c4906d3]
+2020-04-16 14:26:55 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6c4906d3]
+2020-04-16 14:26:55 DEBUG PooledDataSource:381 - Returned connection 1816725203 to pool.
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:26:55 DEBUG PooledDataSource:424 - Created connection 2030937207.
+2020-04-16 14:26:55 DEBUG PooledDataSource:381 - Returned connection 2030937207 to pool.
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 	  )com/luchienlin/mybatis/dao/EmployeeMapper  java/lang/Object 
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-04-16 14:26:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:26:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2020-04-16 14:26:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2020-04-16 14:28:09 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:28:09 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:28:09 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:28:09 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:28:09 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:28:09 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:28:09 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:28:09 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:28:10 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:28:10 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:28:10 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:28:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:10 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:28:10 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:28:10 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:28:10 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:28:10 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapperAnnotation.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:28:10 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:102 - Reader entry: ����   4 	  )com/luchienlin/mybatis/dao/EmployeeMapper  java/lang/Object 
+2020-04-16 14:28:10 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:28:10 DEBUG DefaultVFS:102 - Reader entry: ����   4 
+2020-04-16 14:28:10 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2020-04-16 14:28:10 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2020-04-16 14:28:10 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:28:10 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:28:10 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:28:10 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:28:10 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:28:10 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:28:10 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:28:10 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:28:10 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:28:10 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:54 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-16 14:28:54 DEBUG VFS:108 - Class not found: org.jboss.vfs.VFS
+2020-04-16 14:28:54 DEBUG JBoss6VFS:142 - JBoss 6 VFS API is not available in this environment.
+2020-04-16 14:28:54 DEBUG VFS:108 - Class not found: org.jboss.vfs.VirtualFile
+2020-04-16 14:28:54 DEBUG VFS:63 - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-04-16 14:28:54 DEBUG VFS:74 - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-04-16 14:28:54 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:28:54 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:28:54 DEBUG DefaultVFS:102 - Reader entry: Employee.class
+2020-04-16 14:28:54 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean
+2020-04-16 14:28:54 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:28:54 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/bean/Employee.class
+2020-04-16 14:28:54 DEBUG DefaultVFS:102 - Reader entry: ����   4 F  $com/luchienlin/mybatis/bean/Employee  java/lang/Object id Ljava/lang/Integer; lastName Ljava/lang/String; email gender <init> ()V Code
+2020-04-16 14:28:54 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.bean.Employee matches criteria [is assignable to Object]
+2020-04-16 14:28:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:54 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2020-04-16 14:28:55 DEBUG PooledDataSource:424 - Created connection 1471086700.
+2020-04-16 14:28:55 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
+2020-04-16 14:28:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:28:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:28:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.class
+2020-04-16 14:28:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapper.xml
+2020-04-16 14:28:55 DEBUG DefaultVFS:102 - Reader entry: EmployeeMapperAnnotation.class
+2020-04-16 14:28:55 DEBUG DefaultVFS:113 - Listing file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao
+2020-04-16 14:28:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:28:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.class
+2020-04-16 14:28:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 	  )com/luchienlin/mybatis/dao/EmployeeMapper  java/lang/Object 
+2020-04-16 14:28:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:28:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapper.xml
+2020-04-16 14:28:55 DEBUG DefaultVFS:102 - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2020-04-16 14:28:55 DEBUG DefaultVFS:222 - Find JAR URL: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:28:55 DEBUG DefaultVFS:250 - Not a JAR: file:/C:/EclipseWorkSpace/MyBatisPractice/MyBatis_02_config2/bin/com/luchienlin/mybatis/dao/EmployeeMapperAnnotation.class
+2020-04-16 14:28:55 DEBUG DefaultVFS:102 - Reader entry: ����   4 
+2020-04-16 14:28:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapper matches criteria [is assignable to Object]
+2020-04-16 14:28:55 DEBUG ResolverUtil:256 - Checking to see if class com.luchienlin.mybatis.dao.EmployeeMapperAnnotation matches criteria [is assignable to Object]
+2020-04-16 14:28:55 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2020-04-16 14:28:55 DEBUG PooledDataSource:416 - Checked out connection 1471086700 from pool.
+2020-04-16 14:28:55 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:28:55 DEBUG getEmpById:143 - ==>  Preparing: select * from tb1_employee where id=? 
+2020-04-16 14:28:55 DEBUG getEmpById:143 - ==> Parameters: 1(Integer)
+2020-04-16 14:28:55 DEBUG getEmpById:143 - <==      Total: 1
+2020-04-16 14:28:55 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:28:55 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@57af006c]
+2020-04-16 14:28:55 DEBUG PooledDataSource:381 - Returned connection 1471086700 to pool.
