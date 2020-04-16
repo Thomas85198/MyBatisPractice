@@ -2,6 +2,9 @@ package com.luchienlin.mybatis.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -105,6 +108,80 @@ public class MyBatisTest {
 		}finally {
 			openSession.close();
 		}
+	}
+	
+	/**
+	 * 測試增刪改
+	 * 1. mybatis允許增刪改查直接定義以下類型返回值
+	 * 		Integer、Long、Boolean
+	 * 
+	 * 2. 我們需要手動提交數據
+	 * 		sqlSessionFactory.openSessionFactory = openSession() ===> 手動提交
+	 * 		sqlSessionFactory.openSessionFactory = openSession(true) ===> 自動提交
+	 * @throws IOException 
+	 */
+	@Test
+	public void test03() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		// 1.獲取到的SqlSession不會自動提交
+		SqlSession openSession = sqlSessionFactory.openSession();
+		try {
+			
+			 EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
+			// 測試添加
+			Employee employee = new Employee(null, "jerry3", null, "1");
+			mapper.addEmp(employee);
+			System.out.println(employee.getId());
+			
+			 // 測試修改
+			// Employee employee = new Employee(1, "Tom", "Thomas2793@yahoo.com.tw", "0");
+			// boolean updateEmp = mapper.updateEmp(employee);
+			// System.out.println(updateEmp);
+			
+			 // 測試刪除
+			//  mapper.deleteEmpById(2);
+			 
+			// 2. 手動提交
+			openSession.commit();
+		}finally {
+			openSession.close();
+		}
+		
+		
+	}
+	
+	@Test
+	public void test04() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		// 1.獲取到的SqlSession不會自動提交
+		SqlSession openSession = sqlSessionFactory.openSession();
+		try {
+			EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
+			// Employee employee = mapper.getEmpByIdAndLastName(1, "Tom");
+			/*Map<String, Object> map = new HashMap<>();
+			map.put("id", 1);
+			map.put("lastName", "Tom");
+			map.put("tableName", "tb1_employee");
+			Employee employee = mapper.getEmpByMap(map);
+			System.out.println(employee); */
+			// 查出名字帶e字母的
+			List<Employee> like = mapper.getEmpsByLastNameLike("%e%");
+			for(Employee emp : like) {
+				System.out.println(emp);
+			}
+			
+			// {gender=0, last_name=Tom, id=1, email=Thomas2793@yahoo.com.tw}
+			Map<String, Object> map = mapper.getEmpByIdReturnMap(1);
+			System.out.println(map); 
+		
+			Map<Integer, Employee> map2 = mapper.getEmpByLastNameLikeReturnMap("Jerry");
+			System.out.println(map2);
+			
+		}finally {
+			openSession.close();
+		}
+		
+		
 	}
 
 

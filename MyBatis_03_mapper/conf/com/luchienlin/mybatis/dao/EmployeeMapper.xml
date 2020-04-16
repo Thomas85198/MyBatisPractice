@@ -9,6 +9,35 @@ id：唯一標示
 resultType：返回值類型
 #{id}：從傳遞過來的參數中取出id值
  -->
+ 	
+ 	<!-- public Map<Integer, Employee> getEmpByLastNameLikeReturnMap(String lastName); -->
+	<select id="getEmpByLastNameLikeReturnMap" resultType="com.luchienlin.mybatis.bean.Employee">
+			select * from tb1_employee where last_name like #{lastName}	
+	</select>
+
+ 	<!-- public Map<String, Object> getEmpByIdReturnMap(Integer id); -->
+ 	<!-- map有別名，可以直接寫 -->
+ 	<select id="getEmpByIdReturnMap" resultType="map">
+ 			select * from tb1_employee where id=#{id}
+ 	</select>
+ 	
+ 	<!-- public List<Employee> getEmpsByLastNameLike(String lastName); -->
+ 	<!-- resultType：如果返回是一個集合，要寫集合元素類型 -->
+ 	<!-- 因為他還是回傳employee類型封裝在List中，所以仍然是Employee -->
+ 	<select id="getEmpsByLastNameLike" resultType="com.luchienlin.mybatis.bean.Employee">
+ 			select * from tb1_employee where last_name like #{lastName}
+ 	</select>
+
+ 	<!-- public Employee getEmpByMap(Map<String, Object> map); -->
+ 	<select id="getEmpByMap" resultType="com.luchienlin.mybatis.bean.Employee">
+		select * from  ${tableName} where id=${id} and  last_name=#{lastName}
+ 	</select>
+
+ 	<!-- public Employee getEmpByIdAndLastName(Integer id,  String lastName); -->
+ 	<select id="getEmpByIdAndLastName"  resultType="com.luchienlin.mybatis.bean.Employee" >
+ 		select * from tb1_employee where id = #{id} and last_name = #{lastName}
+ 	</select>
+ 	
 	 <!--  
 	<select id="getEmpById" resultType="com.luchienlin.mybatis.bean.Employee">
 		select id,last_name AS lastName, email, gender from tb1_employee where id = #{id}
@@ -24,4 +53,30 @@ resultType：返回值類型
 	<select id="getEmpById" resultType="com.luchienlin.mybatis.bean.Employee" databaseId="mysql">
 		select * from tb1_employee where id=#{id}
 	</select>
-</mapper>
+	
+	<!-- public void addEmp(Employee employee); -->
+	<!-- parameterType：參數類型，可以省略
+	獲取自增主鍵值：
+		mysql支持自增主鍵，自增主鍵的獲取，mybatis也是利用statement.getGeneratedKeys()：
+		useGeneratedKeys="true"：使用自增主鍵獲取主鍵值策略
+		keyProperty：指定時對應的主鍵屬性，也就是mybatis或取道的主鍵值以後，將這個值封裝給javaBean的哪個屬性
+	 -->
+	<insert id="addEmp" parameterType="com.luchienlin.mybatis.bean.Employee"
+		useGeneratedKeys="true" keyProperty="id">
+		insert into tb1_employee(last_name, email, gender) 
+		values(#{lastName}, #{email}, #{gender})
+	</insert>
+	
+	<!-- public void updateEmp(Employee employee); -->
+	<update id="updateEmp">
+		update tb1_employee
+			set last_name=#{lastName}, email=#{email}, gender=#{gender}
+			where id=#{id}
+	</update>
+	
+	<!-- public void deleteEmpById(Integer id); -->
+	<delete id="deleteEmpById">
+		delete from tb1_employee where id=#{id}
+	</delete>
+	
+</mapper> 

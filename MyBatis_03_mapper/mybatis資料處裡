@@ -1,0 +1,83 @@
+單個參數：mybatis不會做特殊處裡
+	#{參數名}：取出參數值。
+	
+多個參數：mybatis會做特殊處理
+	多個參數會被封裝成一個map
+		key：param1...paramN, 或者參數的索引也可以
+		value：傳入的參數值
+	#{ }就是從map中獲取指定的key值
+
+				異常：org.apache.ibatis.binding.BindingException: 
+							Parameter 'id' not found. 
+							Available parameters are [arg1, arg0, param1, param2]
+				操作：
+							方法；public Employee getEmpByIdAndLastName(Integer id,  String lastName);
+							取值：#{id},#{lastName}
+							
+命名參數：明確指定封裝參數時map的key：@Param("id")
+				多個參數會被封裝成一個map
+						key：使用@Param註解指定的值
+						value：參數值
+				#{指定的key}取出對應的參數值
+				
+POJO：
+如果多個參數正好是我們業務邏輯模型，我們就可以直接傳入POJO
+		#{屬姓名}：取出傳入的POJO屬性值
+		
+Map：
+如果多個參數不是業務模型的數據，沒有對應的POJO，為了方便，我們也可以傳入map
+		#{key}：取出map中對應的值
+
+TO：		
+如果多個參數不適業務模型中數據，但是經常要使用，推薦來編寫一個TO(Transfer Object)數據傳輸對象
+Page{
+		int index;
+		int size;
+}
+
+==================思考=======================================
+
+public Employee getEmp(@Param("id")Integer id, String lastName);
+		取值：id===>#{id/param1}    lastName===>#{param2}
+		
+public Employee getEmp(Integer id, @Param("e")Employee emp);
+		取值：id===>#{param1}   lastName===>#{param2.lastName/e.lastName}
+
+## 特別注意，如果是Collection(List、Set)類型或者是數組，也會特殊處裡，
+						也是把傳入的list或者數組封裝在map中
+								key：Collection(collection)，如果是List還可以使用這個Key(list)
+										數組(array)
+public Employee getEmpById(List<Integer> ids);
+		取值：取出一個id的值：#{list[0]};		// 不能寫params，也不能寫ids
+		
+===================結合程式碼，mybatis怎麼處裡參數=================
+
+結：參數多時會封裝map，為了不混亂，我們可以使用@Param來指定封裝使用的key：
+#{key}就可以取出map值
+
+
+====================參數值的獲取==================================
+#{}：可以獲取map中的值或POJO對象屬性的值
+${}：可以獲取map中的值或POJO對象屬性的值
+區別：#{}是以預編譯的形式，將參數設置sql語句中，PreparedStatement：防止sql注入
+Preparing: select * from tb1_employee where id=1 and last_name=? 
+		   ${}取出值直接裝在sql語句中，會有安全問題
+		   大多情況下都用#
+		   原生sql不支持?的時候就可以用$
+		   			select * from $(year)_salary where xxx;
+		   			select * from tb1_employee order by ${f_name} ${order}
+
+#{}：更豐富的用法：
+		 規定參數的一些規則
+		 javaType、jdbcType、mode(存儲過程)、numricScale
+		 resultMap、typeHandler、jdbcTypeName、expression(未來準備支持的功能)
+		 
+		jdbcType通常需要被設置在某種特定的條件下被設置：
+					在我們數據為null的後，有些數據庫可能不能是別mybatis對null的默認處裡，比如Oracle報錯
+					
+					JdbcType OTHER；無效的類型：因為mybatis對所有的null都映射的是Jdbc OTHER類型，oracle不能正確處裡;
+					
+					由於全局配置中：jdbcTypeForNull=OTHER：oracle不支持，兩種解決辦法
+					1. #{email, jdbcType=OTHER};
+					2. jdbcTypeForNull=NULL <setting name="jdbcTypeForNull" value="NULL"/>
+					
