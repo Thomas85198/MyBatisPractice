@@ -16,6 +16,7 @@ import com.luchienlin.mybatis.bean.Employee;
 import com.luchienlin.mybatis.dao.DepartmentMapper;
 import com.luchienlin.mybatis.dao.EmployeeMapper;
 import com.luchienlin.mybatis.dao.EmployeeMapperAnnotation;
+import com.luchienlin.mybatis.dao.EmployeeMapperDynamicSQL;
 import com.luchienlin.mybatis.dao.EmployeeMapperPlus;
 
 /**
@@ -37,6 +38,22 @@ public class MyBatisTest {
 		String resource = "mybatis-config.xml"; // 放文件名
 		InputStream inputStream = Resources.getResourceAsStream(resource);
 		return new SqlSessionFactoryBuilder().build(inputStream);
+	}
+	
+	@Test
+	public void testDynamicSql() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		SqlSession openSession = sqlSessionFactory.openSession();
+		try {
+			EmployeeMapperDynamicSQL mapper = openSession.getMapper(EmployeeMapperDynamicSQL.class);
+			Employee employee = new Employee(1, "%e%", null, "0");
+			List<Employee> emps = mapper.getEmpsByConditionIf(employee);
+			for(Employee emp: emps) {
+				System.out.println(emp);
+			}
+		}finally {
+			openSession.close();
+		}
 	}
 
 	/**

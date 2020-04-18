@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luchienlin.mybatis.dao.EmployeeMapperPlus">
+		
+		<!-- 自訂一某個javaBean的封裝規則
+		type：自訂一規則的Java類型
+		id：唯一id方便引用
+		 -->
+		<resultMap type="com.luchienlin.mybatis.bean.Employee"  id="MySimpleEmp">
+					<!-- 
+					指定主鍵列的封裝規則 
+					id定義主鍵會底層有優化
+					column：指定哪一列
+					property：指定對應的javaBean屬性
+					-->
+					<id column="id" property="id"/>
+					<!-- 定義普通封裝規則 -->
+					<result column="last_name" property="lastName"/>
+					<!-- 其他不指定的列會自動封裝，我們只要寫resultMap就把全部的映射規則都寫上 -->
+					<result column="email" property="email"/>
+					<result column="gender" property="gender"/>
+		</resultMap>
+		
+		<!-- resultMap：自訂一結果集映射規則 -->
+		<!-- public Employee getEmpById(Integer id); -->
+		<!-- 想要返回employee類型，故要去看Employee Bean -->
+		<select id="getEmpById"  resultMap="MySimpleEmp">
+			select * from tb1_employee where id=#{id}
+		</select>
+		
+		<!-- 
+			場景一：
+				查詢Employee的同時查詢員工對應的部門
+				Employee===Department
+				一個員工有與之對應的部門訊息：
+				id, last_name, gender, d_id, did, dept_name(private Department dept)
+		 -->
+		 <!-- 
+		 	聯合查詢：級聯屬性封裝結果集合
+		  -->
+		 <resultMap type="com.luchienlin.mybatis.bean.Employee" id="MyDifEmp">
+		 		<id column="id" property="id"/>
+		 		<result column="last_name" property="lastName"/>
+		 		<result column="gender" property="gender"/>
+		 		<result column="did" property="dept.id"/> <!--  屬性的屬性-->
+		 		<result column="dept_name" property="dept.departmentName"/>
+		 </resultMap>
+		 
+		 
+		 <!--  
+		 	使用association定義單個對象的封裝規則
+		  -->
+		 <resultMap type="com.luchienlin.mybatis.bean.Employee" id="MyDifEmp2">
+		 		<id column="id" property="id"/>
+		 		<result column="last_name" property="lastName"/>
+		 		<result column="gender" property="gender"/>
+		 		<!--  association可以指定聯合的JavaBean對象 
+		 		property="dept"：指定哪個屬性是聯合的對象
+		 		javaType：指定這個屬性對象的類型｛不可省略｝
+		 		-->
+		 		<association property="dept" javaType="com.luchienlin.mybatis.bean.Department">
+		 				<id column="did" property="id"/> <!-- 寫dept相關的，就部用集連屬性 -->
+		 				<result column="dept_name" property="departmentName"/>
+		 		</association>
+		 </resultMap>
+		 <!--  public Employee getEmpAndDept(Integer id); -->
+		 <select id="getEmpAndDept" resultMap="MyDifEmp2">
+		 		SELECT e.id id, e.last_name, e.gender gender, e.d_id d_id,
+				d.id did, d.dept_name dept_name FROM tb1_employee e, tb1_dept d
+				WHERE e.d_id=d.id AND e.id=#{id}
+		 </select>
+		
+		<!--  使用association進行分布查詢 
+				1. 先按照員工id查詢員工信息
+				2. 根據查詢員工訊息的d_id值去部門查出表單訊息
+				3. 部門設置到員工中：-->
+		<!-- id, last_name, gender, email, d_id -->
+		<resultMap type="com.luchienlin.mybatis.bean.Employee" id="MyEmpByStep">
+			<id column="id" property="id"/>
+			<result column="last_name" property="lastName"/>
+			<result column="email" property="email"/>
+			<result column="gender" property="gender"/>
+			<!--  association定義 關聯對象的封裝規則
+					select：表明當前屬性是調用select指定的方法查詢出的結果(全類明+方法名)
+					column：指定哪一列的值傳給這個方法
+					
+					流程：使用select指定方法(傳入column指定的這列參數的值)查出對象，並封裝給property指定的屬性
+					-->
+			<association property="dept" 
+				select="com.luchienlin.mybatis.dao.DepartmentMapper.getDeptById"
+				column="d_id">
+				
+			</association>
+		</resultMap>
+		<!-- public Employee getEmpByIdStep(Integer id); -->
+		<select id="getEmpByIdStep" resultMap="MyEmpByStep">
+			SELECT * FROM tb1_employee WHERE id=#{id}
+		</select>
+		
+		<!-- 
+			使用association進行分布查詢，可以使用延遲加載(懶加載)：(有需要時才查詢)
+			Employee===>Dept：
+						我們每次查詢Employee對象的時候，都將部門訊息一起查詢出來
+						部門訊息再我們使用的時候再去查詢：
+						分段查詢的基礎上加上兩個配置；
+		 -->
+		<!-- =====================================ASSOCIATION======================================== -->
+		<!-- 
+		場景二：
+					查詢部門的時候將部門對應的所有員工訊息都查詢出來，注釋在DepartmentMapper.xml中
+			
+		
+		 -->
+		<!-- public List<Employee> getEmpsByDeptId(Integer deptId); -->
+		<!-- 按照部門id查詢所有員工 -->
+		<select id="getEmpsByDeptId" resultMap="MyEmpDis">
+			select * from tb1_employee where d_id = #{deptId}
+		</select>
+		
+		<!-- <discriminator javaType=""></discriminator> 
+			鑑別器：mybatis可以使用discriminator判斷某列的值，然後根據某列的值來改變封裝行為
+			封裝Employee：
+					如果查出的是女生：就把部門訊息查詢出來，否則部查詢
+					如果是男生，把last_name這一列的值賦給email；
+		-->
+		<resultMap type="com.luchienlin.mybatis.bean.Employee" id="MyEmpDis">
+			<id column="id" property="id"/>
+			<result column="last_name" property="lastName"/>
+			<result column="email" property="email"/>
+			<result column="gender" property="gender"/>
+			<!-- coloumn：指定判斷的列名
+					javaType：列值對應的java類型 -->
+			<discriminator javaType="string" column="gender">
+				<!-- 女生resultType：指定封裝的結果類型 ，不能約少，resultMap-->
+				<case value="0" resultType="com.luchienlin.mybatis.bean.Employee">
+					<association property="dept"
+						select="com.luchienlin.mybatis.dao.DepartmentMapping"
+						column="d_id">
+						
+					</association>
+				</case> <!-- 如果是女生案下面的類型走，如果是男生仍然照上面的類型 -->
+				<!-- 男生：如果是男生，把last_name這一列的值賦給email; -->
+				<case value="1" resultType="com.luchienlin.mybatis.bean.Employee">
+					<id column="id" property="id"/>
+					<result column="last_name" property="lastName"/>
+					<result column="email" property="email"/>
+					<result column="gender" property="gender"/>
+				</case>
+			</discriminator>
+		</resultMap>
+			
+		
+</mapper>

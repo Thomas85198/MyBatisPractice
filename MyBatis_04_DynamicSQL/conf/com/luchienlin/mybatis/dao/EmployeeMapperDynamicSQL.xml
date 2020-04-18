@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luchienlin.mybatis.dao.EmployeeMapperDynamicSQL">
+<!-- 
+namespace：名稱空間
+id：唯一標示
+resultType：返回值類型
+#{id}：從傳遞過來的參數中取出id值
+ -->
+ <!-- 
+ 	if
+ 	choose(when, otherwise)
+ 	trim(where, set)
+ 	foreach
+  -->
+	<!-- 查詢員工，要求，攜帶了哪個字段查詢條件就戴上字段的值 -->
+	<!--  public List<Employee> getEmpsByConditionIf(Employee employee); -->
+	<select id="getEmpsByConditionIf" resultType="com.luchienlin.mybatis.bean.Employee">
+		select * from tb1_employee
+		where 
+		<!--  test：判斷表達是(OGNL表達式)：c: if test
+		OGNL參照PPT或者官方文件 
+		從參數中取值進行判斷
+		遇見特殊符號應該去寫轉義字符
+		W3school查的到
+		&&:也是特殊字符-->
+		<!-- id不是空，才進行判斷 -->
+		<if test="id!=null">
+			id=#{id}
+		</if>
+		<!-- lastName不是空且lastName不是空白，可以用''單引號判斷，或是用特殊符號的轉譯字，可以從W3School查 -->
+		<if test="lastName!=null  &amp;&amp;  lastName!=&quot; &quot;">
+			and last_name like #{lastName}
+		</if>
+		<if test="email !=null and email.trim()!=&quot;&quot;">
+			and email=#{email} 
+		</if>
+		<!-- ognl會進行字符串與數字的轉換 -->
+		<if test="gender ==0 or gender==1">
+			and gender=#{gender}
+		</if>
+	</select>
+
+
+ </mapper>

@@ -79,4 +79,6 @@ resultType：返回值類型
 		delete from tb1_employee where id=#{id}
 	</delete>
 	
+	
+	
 </mapper> 
