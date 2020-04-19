@@ -2,6 +2,8 @@ package com.luchienlin.mybatis.test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -40,21 +42,83 @@ public class MyBatisTest {
 		return new SqlSessionFactoryBuilder().build(inputStream);
 	}
 	
+	// 類似模糊查詢
+	@Test
+	public void testInnerParam() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		SqlSession openSession = sqlSessionFactory.openSession();
+		try {
+			EmployeeMapperDynamicSQL mapper = openSession.getMapper(EmployeeMapperDynamicSQL.class);
+			Employee employee2 = new Employee();
+			employee2.setLastName("%e%"); // 查出名字中帶e的
+			List<Employee> list = mapper.getEmpsTestInnerParameter(employee2);
+			for(Employee employee: list) {
+				System.out.println(employee);
+			}
+		}finally {
+			openSession.close();
+		}
+	}
+	
 	@Test
 	public void testDynamicSql() throws IOException {
 		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
 		SqlSession openSession = sqlSessionFactory.openSession();
 		try {
 			EmployeeMapperDynamicSQL mapper = openSession.getMapper(EmployeeMapperDynamicSQL.class);
-			Employee employee = new Employee(1, "%e%", null, "0");
-			List<Employee> emps = mapper.getEmpsByConditionIf(employee);
+			// 測試if\where
+			Employee employee = new Employee(1, "Admin", null, null);
+			/*List<Employee> emps = mapper.getEmpsByConditionIf(employee);
 			for(Employee emp: emps) {
+				System.out.println(emp);
+
+			}*/
+			// 查詢的時候如果某些條件沒帶可能sql拼裝會有問題
+			// 1. 給where後面後面加上1=1，以後條件都and XXX.
+			// 2. mybatis使用where標籤來將所有的查詢條件包括在內
+					// where只會去掉第一個多出來的and或者or
+			// 測試Trim
+			/*List<Employee> emps2 = mapper.getEmpsByConditionTrim(employee);
+			for(Employee emp: emps2) {
+				System.out.println(emp);
+			}*/
+			
+			// 測試choose
+			/*List<Employee> emps3 = mapper.getEmpsByConditionChoose(employee);
+			for(Employee emp : emps3) {
+				System.out.println(emp);
+			}*/
+			
+			// 測試set標籤
+			/*mapper.updateEmp(employee);
+			openSession.commit();*/
+			
+			List<Employee> emps4 = mapper.getEmpsByConditionForeach(Arrays.asList(1,2,3,4)); // 查出id為1234
+			for(Employee emp: emps4) {
 				System.out.println(emp);
 			}
 		}finally {
 			openSession.close();
 		}
 	}
+	
+	@Test
+	public void testBatchSave() throws IOException {
+		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
+		SqlSession openSession = sqlSessionFactory.openSession();
+		try{
+				EmployeeMapperDynamicSQL mapper = openSession.getMapper(EmployeeMapperDynamicSQL.class);
+				List<Employee> emps = new ArrayList<>();
+				emps.add(new Employee(null, "smith", "smith@gmail.com", "1", new Department(1)));
+				emps.add(new Employee(null, "allen", "allen@gmail.com", "0", new Department(1)));
+				mapper.addEmps(emps);
+				openSession.commit();
+		}finally {
+			openSession.close();
+		}
+	}
+
+	
 
 	/**
 	 * 1. 根據xml配置文件(全局配置文件)建立一個SqlSessionFactory物件 有數據源一歇運行環境訊息 2.

@@ -8,6 +8,15 @@ public class Department {
 	private String departmentName;
 	private List<Employee> emps; // 查部門下的所有員工
 	
+	
+	
+	public Department() {
+		super();
+	}
+	public Department(Integer id) {
+		super();
+		this.id = id;
+	}
 	public List<Employee> getEmps() {
 		return emps;
 	}

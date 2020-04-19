@@ -49,23 +49,28 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	
 	
 	<!-- 封裝規則，傳的還是Department -->
+	<!--  
 	<resultMap type="com.luchienlin.mybatis.bean.Department" id="MyDeptStep">
 		<id column="id" property="id"/>
-		<id column="dept_name" property="departmentName"/> <!-- 對應department對象Name -->
-		<collection property="emps" 
+		<id column="dept_name" property="departmentName"/>  對應department對象Name 
+			<collection property="emps" 
 				select="com.luchienlin.mybatis.dao.EmployeeMapperPlus.getEmpsByDeptId"
-				column="{deptId=id}" fetchType="eager">   <!-- collection對象裡面有一個emps，並使用emp的方法，將我們查出來的傳進id列-->
+				column="{deptId=id}" fetchType="eager">    collection對象裡面有一個emps，並使用emp的方法，將我們查出來的傳進id列
 		</collection>
 		
 	</resultMap>
+	-->
 	
 	<!-- public Department getDeptByIdStep(Integer id); -->
 	<!-- 跟之前一樣是按照id查部門 -->
+	<!--  
 	<select id="getDeptByIdStep" resultMap="MyDeptStep">
 		SELECT id, dept_name departmentName 
 		FROM tb1_dept 
 		WHERE id=#{id} 
+
 	</select>
+			-->
 	
 		<!--  擴展：多列的值傳遞 
 				將多列的值封裝map傳值：
