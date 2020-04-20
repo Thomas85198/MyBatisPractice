@@ -3,6 +3,27 @@
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.luchienlin.mybatis.dao.EmployeeMapper">
+	<cache eviction="FIFO" flushInterval="60000" readOnly="false" size="1024"></cache>
+<!-- 
+eviction：緩存回收策略：
+		LRU - 最近最少使用的：移除最常時間不被使用的對象。
+		FIFO - 先進先出：按對象進入緩存的順序來移除他們。
+		SOFT - 軟引用：移除基於垃圾回收器狀態和軟引用規則的對象
+		WEAK - 弱引用：更積極地移除基於垃圾收集器狀態和弱引用規則的對象。
+		默認是LRU
+ flushInterval：緩存刷新間隔
+ 	緩存多長時間清空一次，默認不清空，設置一個毫秒值
+ readOnly：是否只讀：true：只讀，mybatis認為所有從緩存中獲取數據操作都是只讀操作，不會修改數據。
+ 		mybatis為了家快獲取速度，直接就會將數據再緩存中引用交給用戶。不安全，速度快。
+ 				  false：非只讀，mybatis覺得獲取的數據可能被修改。
+ 				  mybatis會利用序列話&反序列話技術克隆一份新的數據給你。安全，速度慢
+ size：緩存存放多少個元素：
+ types=""，指定自定義緩存的全類名：實現Cache接口即可。
+ 	
+ -->
+
+
+
 <!-- 
 namespace:名称空间;指定为接口的全类名
 id：唯一标识
@@ -41,7 +62,7 @@ public Employee getEmpById(Integer id);
 		select * from tb1_employee where id = #{id}
 	</select>
 	<select id="getEmpById" resultType="com.luchienlin.mybatis.bean.Employee"
-		databaseId="mysql">
+		databaseId="mysql" useCache="false">
 		select * from tb1_employee where id = #{id}
 	</select>
 	<select id="getEmpById" resultType="com.luchienlin.mybatis.bean.Employee"

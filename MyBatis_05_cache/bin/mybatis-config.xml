@@ -12,6 +12,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	<setting name="jdbcTypeForNull" value="NULL"/>
 	<!-- 延遲加載 -->
 	<!-- 顯示的指定每個我們需要配置的值，即使他是預設的。目的是防止更新帶來的問題 -->
+	<setting name="cacheEnabled" value="true"/>
 	<setting name="lazyLoadingEnabled" value="true"/>
 	<setting name="aggressiveLazyLoading" value="false"/>
 </settings>
