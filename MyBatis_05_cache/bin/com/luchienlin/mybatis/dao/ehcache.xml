@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="../config/ehcache.xsd">
+ xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
  <!-- 磁盘保存路径 -->
- <diskStore path="D:\44\ehcache" />
+ <diskStore path="C:\EclipseWorkSpace\ehcache" />
  
  <defaultCache 
-   maxElementsInMemory="1" 
+   maxElementsInMemory="10000" 
    maxElementsOnDisk="10000000"
    eternal="false" 
    overflowToDisk="true" 

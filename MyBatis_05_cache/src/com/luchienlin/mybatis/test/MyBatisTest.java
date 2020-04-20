@@ -62,16 +62,22 @@ public class MyBatisTest {
 	 * 			4) sqlSession.clearCache();只清除當前session的一級緩存
 	 * 			5) localCacheScope：本地緩存作用域：(一級緩存SESSION)：當前會話的所有數據保存在會話緩存中
 	 * 							STATEMENT：可以禁用一級緩存。
+	 * 
+	 * 第三方緩存整合：
+	 * 		1) 導入第三方緩存包
+	 * 		2) 導入與第三方緩存整合的適配包，官方有
+	 * 		3) mapper.xml
+	 * 
 	 * @throws IOException 
 	 * 
 	 */
 	@Test
-	public void testSecondLevelCache() throws IOException {
+	public void testSecondLevelCache() throws IOException{
 		SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
 		SqlSession openSession = sqlSessionFactory.openSession();
 		SqlSession openSession2 = sqlSessionFactory.openSession();
-		try {
-			// 1.
+		try{
+			//1、
 			EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
 			EmployeeMapper mapper2 = openSession2.getMapper(EmployeeMapper.class);
 			
@@ -79,12 +85,13 @@ public class MyBatisTest {
 			System.out.println(emp01);
 			openSession.close();
 			
-			// 第二次查詢是從二級緩存中拿到的數據，並沒有重新發送新的sql
+			//第二次查询是从二级缓存中拿到的数据，并没有发送新的sql
 			//mapper2.addEmp(new Employee(null, "aaa", "nnn", "0"));
 			Employee emp02 = mapper2.getEmpById(1);
 			System.out.println(emp02);
 			openSession2.close();
-		}finally {
+			
+		}finally{
 			
 		}
 	}
