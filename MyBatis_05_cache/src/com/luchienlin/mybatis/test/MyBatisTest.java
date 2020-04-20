@@ -54,13 +54,14 @@ public class MyBatisTest {
 	 * 			1) cacheEnabled=true：false：關閉緩存(二級緩存：關閉)(一級緩存一直可用的)
 	 * 			2) 每個select標籤都有useCache="true"
 	 * 					false：不使用緩存(一級緩存依然可以使用，二級緩存不使用)
-	 * 			3) 每個增刪改標籤：flushCache="true"；增刪改執行完成後就會清楚緩存：(一級二級都會清)
+	 * 			3) 【每個增刪改標籤：flushCache="true"；增刪改執行完成後就會清楚緩存：(一級二級都會清)】
 	 * 					測試flushCache="true"：一級緩存就清空了：二級緩存也會被清除
 	 * 					查詢標籤:flushCahce="false";
 	 * 						如果flushCache=true;每次查詢之後都會清空緩存，緩存是沒有被使用的。
 	 * 
 	 * 			4) sqlSession.clearCache();只清除當前session的一級緩存
-	 * 
+	 * 			5) localCacheScope：本地緩存作用域：(一級緩存SESSION)：當前會話的所有數據保存在會話緩存中
+	 * 							STATEMENT：可以禁用一級緩存。
 	 * @throws IOException 
 	 * 
 	 */

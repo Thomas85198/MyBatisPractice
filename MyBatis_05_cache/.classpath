@@ -7,5 +7,8 @@
 	<classpathentry kind="lib" path="lib/log4j.jar"/>
 	<classpathentry kind="lib" path="lib/mybatis-3.5.4.jar" sourcepath="C:/Users/Thomas Lu/Documents/Mybatis_3.5.4/mybatis-3-mybatis-3.5.4.zip"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry kind="lib" path="lib/ehcache-3.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.30.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
