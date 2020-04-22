@@ -2,28 +2,23 @@
 <!DOCTYPE configuration
 PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
 <configuration>
-
 	<settings>
-		<setting name="mapUnderscoreToCamelCase" value="true" />
-		<!-- 解決不能自動給Null的資料庫需求，Mysql可以，Oracle必須要有這個配置 -->
-		<setting name="jdbcTypeForNull" value="NULL" />
-		<!-- 延遲加載 -->
-		<!-- 顯示的指定每個我們需要配置的值，即使他是預設的。目的是防止更新帶來的問題 -->
-		<setting name="cacheEnabled" value="true" />
-		<setting name="lazyLoadingEnabled" value="true" />
-		<setting name="aggressiveLazyLoading" value="false" />
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+		<setting name="jdbcTypeForNull" value="NULL"/>
+		
+		<!--显式的指定每个我们需要更改的配置的值，即使他是默认的。防止版本更新带来的问题  -->
+		<setting name="cacheEnabled" value="true"/>
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<setting name="aggressiveLazyLoading" value="false"/>
 	</settings>
-
-
-
+	
 	<databaseIdProvider type="DB_VENDOR">
-		<!-- 為了不同的資料庫廠商命名別名 -->
-		<property name="MySQL" value="mysql" />
-		<property name="Oracle" value="oracle" />
-		<property name="SQL Server" value="sqlserver" />
+		<property name="MySQL" value="mysql"/>
+		<property name="Oracle" value="oracle"/>
+		<property name="SQL Server" value="sqlserver"/>
 	</databaseIdProvider>
-
 
 
 

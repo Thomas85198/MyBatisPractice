@@ -5,14 +5,12 @@
 <mapper namespace="com.luchienlin.mybatis.dao.EmployeeMapper">
 
 	<!-- public Employee getEmpById(Integer id); -->
-	<select id="getEmpById"
-		resultType="com.luchienlin.mybatis.bean.Employee">
+	<select id="getEmpById" resultType="com.luchienlin.mybatis.bean.Employee">
 		select * from tb1_employee where id=#{id}
 	</select>
 	
-	<!-- public List<Employee> getEmps();-->
+	<!--public List<Employee> getEmps();  -->
 	<select id="getEmps" resultType="com.luchienlin.mybatis.bean.Employee">
-		SELECT * FROM tb1_employee
+		select * from tb1_employee
 	</select>
-
 </mapper>

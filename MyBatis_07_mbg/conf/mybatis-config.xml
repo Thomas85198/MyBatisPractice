@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<properties resource="dbconfig.properties"></properties>
+	
+<settings>
+	<setting name="mapUnderscoreToCamelCase" value="true"/>
+	<!-- 解決不能自動給Null的資料庫需求，Mysql可以，Oracle必須要有這個配置 -->
+	<setting name="jdbcTypeForNull" value="NULL"/>
+	<!-- 延遲加載 -->
+	<!-- 顯示的指定每個我們需要配置的值，即使他是預設的。目的是防止更新帶來的問題 -->
+	<setting name="cacheEnabled" value="true"/>
+	<setting name="lazyLoadingEnabled" value="true"/>
+	<setting name="aggressiveLazyLoading" value="false"/>
+</settings>
+
+<!-- 可以把路徑改為縮寫 -->
+  
+<typeAliases>
+	<!--  
+	<typeAlias type="com.luchienlin.mybatis.bean.Employee" 
+		alias="emp"/>
+		-->
+		<!-- 只要別名衝突就會發生運行抱錯，目前測試會有值，但是有運行報錯 -->
+		<package name="com.luchienlin.mybatis.bean"/>
+		
+		<!-- 用@Alias註解解決一切問題，不然就乾脆用路徑 -->
+		
+</typeAliases>
+
+	<environments default="development">
+		<environment id="test">
+			<transactionManager type="JDBC"></transactionManager>
+			<dataSource type=""></dataSource>
+		</environment>
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="${jdbc.driver}" />
+				<property name="url" value="${jdbc.url}" />
+				<property name="username" value="${jdbc.username}" />
+				<property name="password" value="${jdbc.password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<databaseIdProvider type="DB_VENDOR">
+		<!-- 為了不同的資料庫廠商命名別名 -->
+		<property name="MySQL" value="mysql"/>
+		<property name="Oracle" value="oracle"/>
+		<property name="SQL Server" value="sqlserver"/>
+	</databaseIdProvider>
+	
+	
+	
+	<!-- 將我們寫好的sql映射文件(EmployeeMapper.xml)一定要註冊到全局配置文件(mybatis-config.xml)中 -->
+	<mappers>
+	<!--  
+		resource="類路徑"
+		url="網路或磁盤" 
+		class="引用接口"
+	-->
+	<!-- 通常把Mapper文件獨立出來在一個包 -->
+  <!--  
+	<mapper resource="mybatis/mapper/EmployeeMapper.xml" />
+	-->
+	<!-- 裡面是接口的全類路徑，必須將sql映射文件放在根接口同包並且同名 -->
+	<!--   <mapper class="com.luchienlin.mybatis.dao.EmployeeMapper"/> -->
+	<!-- 
+	如果沒有SQL配置文件，用的是介面的話
+	比較重要的寫sql配置文件，不重要的為了效率寫介面上面標註
+	 -->
+	 <!--  
+	<mapper class="com.luchienlin.mybatis.dao.EmployeeMapperAnnotation"/>
+	-->
+	<!-- 批量註冊，需要註冊dao的類路徑，但是sql配置也要放在一起，但為了清楚，在兩個根目錄下用兩個同名的pkg方便管理 -->
+	<package name="com.luchienlin.mybatis.dao"/>
+	</mappers>
+</configuration>
