@@ -154,6 +154,9 @@ public class MyBatisTest {
 		EmpStatus login = EmpStatus.LOGIN;
 		System.out.println("枚舉的索引："+login.ordinal());
 		System.out.println("枚舉的名字：" + login.name());
+		
+		System.out.println("枚舉的狀態碼：" + login.getCode());
+		System.out.println("枚舉的提示消息：" + login.getMsg());
 	}
 	
 	/**
@@ -168,8 +171,10 @@ public class MyBatisTest {
 		try {
 			EmployeeMapper mapper = openSession.getMapper(EmployeeMapper.class);
 			Employee employee = new Employee("test_enum", "luchienlin@gmail.com", "1");
-			mapper.addEmp(employee);
-			System.out.println("保存成功" + employee.getId());
+			// mapper.addEmp(employee);
+			// System.out.println("保存成功" + employee.getId());
+			Employee empById = mapper.getEmpById(30028);
+			System.out.println(empById.getEmpStatus());
 			openSession.commit();
 		}finally {
 			openSession.close();
