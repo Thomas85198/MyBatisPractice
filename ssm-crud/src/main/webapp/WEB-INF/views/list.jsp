@@ -78,18 +78,28 @@
 			<div class=""></div>
 			<!-- 分頁條訊息 -->
 			<div class="col-md-6">
-				當前紀錄數：xxx
+				當前頁碼為第${pageInfo.pageNum }頁，共${pageInfo.pages }頁，共${pageInfo.total }筆資料
 			</div>
 			<div class="col-md-6">
 				<nav aria-label="Page navigation example">
 					<ul class="pagination">
-						<li class="page-item"><a class="page-link" href="#">首頁</a></li>
-						<li class="page-item"><a class="page-link" href="#"
-							aria-label="Previous"> <span aria-hidden="true">&laquo;</span>
-								<span class="sr-only">Previous</span>
-						</a></li>
-						
+						<li class="page-item"><a class="page-link" href="${APP_PATH }/emps?pn=1">首頁</a></li>
+						<!-- 避免直接-1導致pn為負的，所以要判斷
+							如果pageInfo裡面內建的屬性hasPreviousPage有的話
+							才執行
+						 -->
+						<c:if test="${pageInfo.hasPreviousPage }">
+							<li class="page-item">
+							<a class="page-link" href="${APP_PATH }/emps?pn=${pageInfo.pageNum-1 }"
+								aria-label="Previous"> <span aria-hidden="true">&laquo;</span>
+									<span class="sr-only">Previous</span>
+							</a>
+							</li>
+						</c:if>
+						<!-- 連續顯示的頁碼，取出所有的頁碼，他為一個陣列 -->
 						<c:forEach items="${pageInfo.navigatepageNums }" var="page_Num">
+							<!-- 每拿出一頁就是一個li -->
+							<!-- 如果是當前頁碼則高亮顯示且禁用換頁 pageNum是不是在page_Num中 -->
 							<c:if test="${pageInfo.pageNum == page_Num }">
 								<li class="page-item active"><a class="page-link" href="#">${page_Num }</a></li>
 							</c:if>
@@ -97,12 +107,15 @@
 								<li class="page-item"><a class="page-link" href="${APP_PATH }/emps?pn=${page_Num}">${page_Num }</a></li>
 							</c:if>
 						</c:forEach>
-						
-						<li class="page-item"><a class="page-link" href="#"
-							aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
-								class="sr-only">Next</span>
-						</a></li>
-						<li class="page-item"><a class="page-link" href="#">末頁</a></li>
+						<c:if test="${pageInfo.hasNextPage }">
+							<li class="page-item">
+								<a class="page-link" href="${APP_PATH }/emps?pn=${pageInfo.pageNum+1 }"
+								aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
+									class="sr-only">Next</span>
+								</a>
+							</li>
+						</c:if>
+						<li class="page-item"><a class="page-link" href="${APP_PATH }/emps?pn=${pageInfo.pages }">末頁</a></li>
 					</ul>
 				</nav>
 			</div>

@@ -16,18 +16,20 @@ public class Department {
 	}
 
 	public Integer getDeptId() {
-        return deptId;
-    }
+		return deptId;
+	}
 
-    public void setDeptId(Integer deptId) {
-        this.deptId = deptId;
-    }
+	public void setDeptId(Integer deptId) {
+		this.deptId = deptId;
+	}
 
-    public String getDeptName() {
-        return deptName;
-    }
+	public String getDeptName() {
+		return deptName;
+	}
 
     public void setDeptName(String deptName) {
         this.deptName = deptName == null ? null : deptName.trim();
     }
+
+
 }
